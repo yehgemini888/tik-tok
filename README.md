@@ -1,16 +1,71 @@
-# React + Vite
+# Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+一個使用 React 和 Vite 構建的現代化井字遊戲 (Tic-Tac-Toe)。
 
-Currently, two official plugins are available:
+## ✨ 特色
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 經典的井字遊戲玩法
+- 使用 React 19 進行狀態管理
+- 透過 Vite 實現極速的開發體驗
+- 簡潔的 UI 設計
 
-## React Compiler
+## 🛠️ 技術堆疊
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **前端框架:** [React](https://react.dev/)
+- **建置工具:** [Vite](https://vitejs.dev/)
+- **語言:** JavaScript (ESModules)
+- **樣式:** CSS Modules / Standard CSS
 
-## Expanding the ESLint configuration
+## 🚀 快速開始
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+請按照以下步驟在您的本地端運行專案：
+
+### 前置需求
+
+確保您的電腦已安裝 [Node.js](https://nodejs.org/) (建議版本 v16+)。
+
+### 安裝
+
+1. **複製專案 (Clone)**
+   ```bash
+   git clone git@github.com:yehgemini888/tik-tok.git
+   cd tik-tok/tic-tac-toe
+   ```
+
+2. **安裝依賴套件**
+   ```bash
+   npm install
+   ```
+
+3. **啟動開發伺服器**
+   ```bash
+   npm run dev
+   ```
+   伺服器啟動後，請在瀏覽器中開啟終端機顯示的網址（通常是 `http://localhost:5173`）。
+
+## 📦 專案結構
+
+```
+tic-tac-toe/
+├── src/
+│   ├── App.jsx       # 主應用程式組件
+│   ├── main.jsx      # 程式進入點
+│   └── index.css     # 全域樣式
+├── public/           # 靜態資源
+└── package.json      # 專案設定與依賴
+```
+
+## 📜 腳本指令
+
+- `npm run dev`: 啟動開發環境
+- `npm run build`: 建置生產環境版本
+- `npm run preview`: 預覽建置後的版本
+- `npm run lint`: 執行 ESLint 程式碼檢查
+
+## 🤝 貢獻
+
+歡迎提交 Pull Request 或開啟 Issue 來討論新功能或回報錯誤。
+
+## 📝 授權
+
+此專案僅供學習與展示用途。
